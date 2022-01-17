@@ -7,9 +7,9 @@ Classifying semantic relations between entity pairs in sentences is an important
 
 ## Example
 
-### Sentence Example : a12 new york\/region b1-7 enclave for middle class is put up for sale the owner of stuyvesant town and peter cooper village , two 60-year-old apartment complexes on the east side of manhattan , is auctioning them for a target price of nearly $ 5 billion .
+#### Sentence Example : a12 new york\/region b1-7 enclave for middle class is put up for sale the owner of stuyvesant town and peter cooper village , two 60-year-old apartment complexes on the east side of manhattan , is auctioning them for a target price of nearly $ 5 billion .
 
-### Entity Relation Labels : stuyvesant town :: manhattan --> /location/neighborhood/neighborhood_of |
+#### Entity Relation Labels : stuyvesant town :: manhattan --> /location/neighborhood/neighborhood_of |
 peter cooper village :: manhattan --> /location/neighborhood/neighborhood_of.
 
 Meaning Stuyvesant town relates to manhattan as being its neighborhood and so does peter cooper village according to the train.tup file.
