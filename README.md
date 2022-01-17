@@ -5,6 +5,16 @@ Pytorch implementation of Entityt Relation Classification on NYT21 Dataset.
 Classifying semantic relations between entity pairs in sentences is an important task in Natural Language Processing (NLP). Most previous models for relation classification rely on the high-level lexical and syntactic features obtained by NLP tools such as WordNet, dependency parser, part-of-speech (POS) tagger, and named entity recognizers (NER). In addition, state-of-the-art neural models based on Recurrent Neural Networks do not fully utilize information of entity that may be the most crucial features for relation classification. To address these issues, as Part of the NLP course CS5984 (Natural Language Processing) I developed an end-to-end BERT neural model which incorporates an entity-aware attention mechanism to classify relations between two entites in a sentence.
 
 
+## Example
+
+### Sentence Example : a12 new york\/region b1-7 enclave for middle class is put up for sale the owner of stuyvesant town and peter cooper village , two 60-year-old apartment complexes on the east side of manhattan , is auctioning them for a target price of nearly $ 5 billion .
+
+### Entity Relation Labels : stuyvesant town :: manhattan --> /location/neighborhood/neighborhood_of |
+peter cooper village :: manhattan --> /location/neighborhood/neighborhood_of.
+
+Meaning Stuyvesant town relates to manhattan as being its neighborhood and so does peter cooper village according to the train.tup file.
+
+Our task is to take these relations and create a Supervised Neural Net based model to classify the relation between the entities.
 
 ## Model Architecture
 
