@@ -1,6 +1,10 @@
 # R-BERT
 
-(Unofficial) Pytorch implementation of `R-BERT`: [Enriching Pre-trained Language Model with Entity Information for Relation Classification](https://arxiv.org/abs/1905.08284)
+Pytorch implementation of Entityt Relation Classification on NYT21 Dataset. 
+
+Classifying semantic relations between entity pairs in sentences is an important task in Natural Language Processing (NLP). Most previous models for relation classification rely on the high-level lexical and syntactic features obtained by NLP tools such as WordNet, dependency parser, part-of-speech (POS) tagger, and named entity recognizers (NER). In addition, state-of-the-art neural models based on Recurrent Neural Networks do not fully utilize information of entity that may be the most crucial features for relation classification. To address these issues, as Part of the NLP course CS5984 (Natural Language Processing) I developed an end-to-end BERT neural model which incorporates an entity-aware attention mechanism to classify relations between two entites in a sentence.
+
+
 
 ## Model Architecture
 
