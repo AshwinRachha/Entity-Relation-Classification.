@@ -1,4 +1,4 @@
-# R-BERT
+# Entity Relation Classification.
 
 Pytorch implementation of Entityt Relation Classification on NYT21 Dataset. 
 
